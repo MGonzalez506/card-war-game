@@ -48,7 +48,7 @@ struct ContentView: View {
                     } else if playerRand < cpuRand {
                         cpuScore += 1
                     } else {
-                        print("EMPATE")
+                        print("¡EMPATE!")
                     }
                 }, label: {Image("dealbutton")})
                 Spacer()
